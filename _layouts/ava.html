@@ -12,11 +12,20 @@
 
     {% include header.html %}
 
-    
-
     <!-- Content -->
 
-    <div class="container mt-5">
+    <div class="container mr-5 pt-3">
+    {% if page.profile %}
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+        <img class="z-depth-1 rounded max-height: 200px; max-width:270px;" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+      {% endif %}
+    </div>
+    {% endif %}
+
+    </div>
+
+    <div class="container pt-3">
       {{ content }}
     </div>
 

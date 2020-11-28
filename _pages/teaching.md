@@ -2,10 +2,33 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="post-list">
+<h4><b>teaching assistantship</b></h4>
+<ul>
+<li>
+<h5>Advanced Programming</h5>
+<h6>C++ programming language instructed by Mohammad Asgaripour, PhD</h6>
+<h7>Apr. 2020 - June 2020</h7>
+</li>
+<li>
+<h5>Fundamentals of Computer Programming</h5>
+<h6>C programming language instructed by Farzaneh Salari, PhD</h6>
+<h7>Sep. 2019 - Jan. 2020</h7>
+</li>
+</ul>
+</div>
 
-Organize your courses by years, topics, or universities, however you like!
+<div class="post-list">
+<h4><b>mentor</b></h4>
+<ul>
+<li>
+<h5>Software Engineering Development Stack</h5>
+<h6>Mentoring Juniour Software Engineers employed by Cafe Bazaar company</h6>
+<h7>Aug. 2020 - Present</h7>
+</li>
+</ul>
+</div>

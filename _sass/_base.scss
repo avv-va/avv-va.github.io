@@ -174,7 +174,7 @@ a, table.table a {
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -222,18 +222,21 @@ footer.sticky-bottom {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
+  h4 {
+    color: $blue-color-dark;
+  }
   li {
     border-bottom: 1px solid $grey-color-light;
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     .post-meta {
       color: $grey-color;
       font-size: 0.875rem;
       margin-bottom: 0;
     }
     a {
-      color: var(--global-text-color);
+      // color: var(--global-text-color);
       text-decoration: none;
       &:hover {
         color: var(--global-theme-color);
@@ -241,6 +244,38 @@ footer.sticky-bottom {
     }
   }
 }
+
+.post-list-ava {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  span {
+   float: right;
+
+  }
+  b {
+    font-size: 1.1rem;
+  }
+  li {
+    border-bottom: 1px solid $grey-color-light;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    .post-meta {
+      color: $grey-color;
+      font-size: 0.875rem;
+      margin-bottom: 0;
+    }
+    a {
+      // color: var(--global-text-color);
+      text-decoration: none;
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
 
 .pagination .page-item.active .page-link {
   background-color: var(--global-theme-color);
@@ -296,6 +331,9 @@ footer.sticky-bottom {
     span {
       font-size: 1.5rem;
     }
+  }
+  h4 {
+    color: $blue-color-dark;
   }
   h2.year {
     color: $grey-color-light;
