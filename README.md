@@ -7,3 +7,11 @@ This is a very simple starting point if you wish to use Alembic [as a Jekyll the
 or
 
 **[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+
+## [Setup](https://github.com/daviddarnes/alembic?tab=readme-ov-file)
+
+`bundle install`
+
+`bundle exec jekyll serve`
+
+[Configuration](https://github.com/daviddarnes/alembic?tab=readme-ov-file#configuration)
